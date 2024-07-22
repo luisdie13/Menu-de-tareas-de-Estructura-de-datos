@@ -22,6 +22,7 @@ nav {
 h1 {
     color: white;
     font-size: 45px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 h1:hover {
@@ -31,6 +32,7 @@ h1:hover {
 ul li {
     display: inline-block;
     padding: 0px 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -65,12 +67,14 @@ img {
 }
 
 section {
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 50px;
+    width: 8%;
 }
 
 h2 {
     color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
 }
 
 h2:hover {
