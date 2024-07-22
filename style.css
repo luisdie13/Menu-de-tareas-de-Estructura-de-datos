@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(https://plus.unsplash.com/premium_photo-1661882403999-46081e67c401?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbWFjaW9ufGVufDB8fDB8fHww);
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+h1:hover {
+    color: brown;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+main {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+img {
+    border-radius: 100%;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+h2 {
+    color: white;
+}
+
+h2:hover {
+    color: brown;
+}
